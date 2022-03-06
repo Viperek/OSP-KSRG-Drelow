@@ -2,8 +2,10 @@
 @import "./header";
 @import "./main";
 @import "./footer";
+@import "./mediaQueries";
 
 body {
   background-color: gray;
   color: white;
+  font-family: "Times New Roman", Times, serif;
 }

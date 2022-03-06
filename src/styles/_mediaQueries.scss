@@ -1,0 +1,26 @@
+@import "./variables";
+
+@media screen and (min-width: $md) {
+  .footer {
+    &__item {
+      &__title {
+        font-size: 2em;
+      }
+      &__sub-title {
+        font-size: 1.7em;
+      }
+      &__text {
+        font-size: 1em;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $lg) {
+  body {
+    background-color: red;
+  }
+}
+
+@media screen and (min-width: $xl) {
+}
