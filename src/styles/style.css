@@ -15,7 +15,22 @@
 }
 
 .footer {
-  bottom: 0;
+  margin-top: 50px;
+}
+
+.footer__item {
+  letter-spacing: 1px;
+  background-color: #505050;
+}
+
+.footer__item__title {
+  text-shadow: 2px 2px black;
+  font-size: 2em;
+}
+
+.footer__item__sub-title {
+  text-shadow: 2px 2px black;
+  font-size: 1.7em;
 }
 
 body {
