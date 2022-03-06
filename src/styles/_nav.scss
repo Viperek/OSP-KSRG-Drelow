@@ -1,0 +1,17 @@
+.navbar {
+  background-color: $nav-color;
+  //font-size: 32px;
+  //color: white;
+  &__nav {
+    //background-color: red;
+    //color: white;
+    &__item {
+      //background-color: peru;
+
+      margin-left: 1%;
+      &:hover {
+        background-color: purple;
+      }
+    }
+  }
+}
