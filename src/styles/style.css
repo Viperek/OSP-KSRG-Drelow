@@ -12,6 +12,7 @@
 
 .main {
   margin-top: 100px;
+  min-height: 1000px;
 }
 
 .footer {
@@ -39,21 +40,60 @@
   font-size: 0.5em;
 }
 
+.social-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.social-link:hover {
+  color: white;
+}
+
+.fb-item {
+  color: #3b5998;
+}
+
+.ig-item {
+  color: #c13584;
+}
+
+.yt-item {
+  color: #c4302b;
+}
+
 @media screen and (min-width: 769px) {
   .footer__item__title {
-    font-size: 2em;
+    font-size: 0.8em;
   }
   .footer__item__sub-title {
-    font-size: 1.7em;
+    font-size: 0.6em;
   }
   .footer__item__text {
-    font-size: 1em;
+    font-size: 0.5em;
   }
 }
 
 @media screen and (min-width: 992px) {
-  body {
-    background-color: red;
+  .footer__item__title {
+    font-size: 1.5em;
+  }
+  .footer__item__sub-title {
+    font-size: 1.3em;
+  }
+  .footer__item__text {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__item__title {
+    font-size: 1.8em;
+  }
+  .footer__item__sub-title {
+    font-size: 1.4em;
+  }
+  .footer__item__text {
+    font-size: 1em;
   }
 }
 
@@ -61,5 +101,6 @@ body {
   background-color: gray;
   color: white;
   font-family: "Times New Roman", Times, serif;
+  cursor: default;
 }
 /*# sourceMappingURL=style.css.map */

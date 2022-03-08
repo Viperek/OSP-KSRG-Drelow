@@ -1,3 +1,5 @@
+@import "./variables";
+
 .footer {
   margin-top: 50px;
   &__item {
@@ -17,4 +19,20 @@
       font-size: 0.5em;
     }
   }
+}
+.social-link {
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    color: $font-color;
+  }
+}
+.fb-item {
+  color: $fb-color;
+}
+.ig-item {
+  color: $ig-color;
+}
+.yt-item {
+  color: $yt-color;
 }
