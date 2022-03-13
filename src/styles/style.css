@@ -3,11 +3,17 @@
 }
 
 .navbar__nav__item {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   margin-left: 1%;
+  padding: 0 10px;
 }
 
 .navbar__nav__item:hover {
-  background-color: purple;
+  background-color: #323232;
+  border: 1px solid black;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .main {
@@ -95,6 +101,13 @@
   .footer__item__text {
     font-size: 1em;
   }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {

@@ -1,16 +1,14 @@
 .navbar {
   background-color: $nav-color;
-  //font-size: 32px;
-  //color: white;
   &__nav {
-    //background-color: red;
-    //color: white;
     &__item {
-      //background-color: peru;
-
+      transition: all 0.5s ease-in-out;
       margin-left: 1%;
+      padding: 0 10px;
       &:hover {
-        background-color: purple;
+        background-color: $color-link;
+        border: 1px solid black;
+        transform: scale(1.2);
       }
     }
   }
