@@ -5,19 +5,19 @@
   &__item {
     letter-spacing: 1px;
     background-color: $nav-color;
-    &__title {
-      text-shadow: 3px 3px black;
-      font-size: 1em;
-      font-weight: 800;
-    }
-    &__sub-title {
-      text-shadow: 3px 3px black;
-      font-size: 0.7em;
-      font-weight: 700;
-    }
-    &__text {
-      font-size: 0.5em;
-    }
+  }
+  &__title {
+    text-shadow: 3px 3px black;
+    font-size: 1em;
+    font-weight: 800;
+  }
+  &__sub-title {
+    text-shadow: 3px 3px black;
+    font-size: 0.7em;
+    font-weight: 700;
+  }
+  &__text {
+    font-size: 0.5em;
   }
 }
 .social-link {

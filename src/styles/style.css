@@ -2,14 +2,14 @@
   background-color: #505050;
 }
 
-.navbar__nav__item {
+.navbar__item {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   margin-left: 1%;
   padding: 0 10px;
 }
 
-.navbar__nav__item:hover {
+.navbar__item:hover {
   background-color: #323232;
   border: 1px solid black;
   -webkit-transform: scale(1.2);
@@ -30,19 +30,19 @@
   background-color: #505050;
 }
 
-.footer__item__title {
+.footer__title {
   text-shadow: 3px 3px black;
   font-size: 1em;
   font-weight: 800;
 }
 
-.footer__item__sub-title {
+.footer__sub-title {
   text-shadow: 3px 3px black;
   font-size: 0.7em;
   font-weight: 700;
 }
 
-.footer__item__text {
+.footer__text {
   font-size: 0.5em;
 }
 
@@ -68,37 +68,37 @@
 }
 
 @media screen and (min-width: 769px) {
-  .footer__item__title {
+  .footer__title {
     font-size: 0.8em;
   }
-  .footer__item__sub-title {
+  .footer__sub-title {
     font-size: 0.6em;
   }
-  .footer__item__text {
+  .footer__text {
     font-size: 0.5em;
   }
 }
 
 @media screen and (min-width: 992px) {
-  .footer__item__title {
+  .footer__title {
     font-size: 1.5em;
   }
-  .footer__item__sub-title {
+  .footer__sub-title {
     font-size: 1.3em;
   }
-  .footer__item__text {
+  .footer__text {
     font-size: 0.8em;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .footer__item__title {
+  .footer__title {
     font-size: 1.8em;
   }
-  .footer__item__sub-title {
+  .footer__sub-title {
     font-size: 1.4em;
   }
-  .footer__item__text {
+  .footer__text {
     font-size: 1em;
   }
 }

@@ -2,48 +2,42 @@
 
 @media screen and (min-width: $md) {
   .footer {
-    &__item {
-      &__title {
-        font-size: 0.8em;
-      }
-      &__sub-title {
-        font-size: 0.6em;
-      }
-      &__text {
-        font-size: 0.5em;
-      }
+    &__title {
+      font-size: 0.8em;
+    }
+    &__sub-title {
+      font-size: 0.6em;
+    }
+    &__text {
+      font-size: 0.5em;
     }
   }
 }
 
 @media screen and (min-width: $lg) {
   .footer {
-    &__item {
-      &__title {
-        font-size: 1.5em;
-      }
-      &__sub-title {
-        font-size: 1.3em;
-      }
-      &__text {
-        font-size: 0.8em;
-      }
+    &__title {
+      font-size: 1.5em;
+    }
+    &__sub-title {
+      font-size: 1.3em;
+    }
+    &__text {
+      font-size: 0.8em;
     }
   }
 }
 
 @media screen and (min-width: $xl) {
   .footer {
-    &__item {
-      &__title {
-        font-size: 1.8em;
-      }
-      &__sub-title {
-        font-size: 1.4em;
-      }
-      &__text {
-        font-size: 1em;
-      }
+    &__title {
+      font-size: 1.8em;
+    }
+    &__sub-title {
+      font-size: 1.4em;
+    }
+    &__text {
+      font-size: 1em;
     }
   }
 }
