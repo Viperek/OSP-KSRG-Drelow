@@ -18,7 +18,22 @@
 
 .main {
   margin-top: 100px;
-  min-height: 1000px;
+  min-height: 500px;
+  background-color: red;
+}
+
+.main__header {
+  letter-spacing: 5px;
+  font-size: 1.8rem;
+  text-shadow: 3px 3px black;
+}
+
+.main__section--info {
+  color: red;
+}
+
+.main__google {
+  background-color: black;
 }
 
 .footer {
@@ -53,6 +68,11 @@
 
 .social-link:hover {
   color: white;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
 }
 
 .fb-item {

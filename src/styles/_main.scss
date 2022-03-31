@@ -1,4 +1,16 @@
 .main {
   margin-top: 100px;
-  min-height: 1000px;
+  min-height: 500px;
+  background-color: red;
+  &__header {
+    letter-spacing: 5px;
+    font-size: 1.8rem;
+    text-shadow: 3px 3px black;
+  }
+  &__section--info {
+    color: red;
+  }
+  &__google {
+    background-color: black;
+  }
 }
